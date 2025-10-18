@@ -144,12 +144,6 @@ def escritaArq(newStates,Model,transitionType):
           out.write(str(newStates[i][j]) +' ')
         out.write("\n")
 
-
-
-
-
-print(transitionType)
-
 if(transitionType == 'S' or transitionType == 's'):
    escritaArq(estadosSparaI(renomearEstadosIniciais(filtroEstados(leituraEstados(f)))),transitionDelimiters,transitionType)
 elif(transitionType == 'I' or transitionType == 'i'):
@@ -160,4 +154,5 @@ else:
 
 
     
+
 
