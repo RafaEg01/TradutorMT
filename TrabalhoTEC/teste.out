@@ -1,0 +1,12 @@
+;S
+0 _ _ l !SymbolMarker 
+0 1 1 l !SymbolMarker 
+0 0 0 l !SymbolMarker 
+!SymbolMarker _ # r !NewInitial 
+!NewInitial 0 0 r !NewInitial 
+!NewInitial 1 1 r !NewInitial 
+!NewInitial _ 1 l 1 
+1 0 0 l 1 
+1 1 1 l 1 
+1 _ 1 r !NewInitial 
+1 # # r 1 
